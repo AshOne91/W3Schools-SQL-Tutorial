@@ -1,4 +1,5 @@
 # W3School Sql 튜토리얼 요약&번역 및 예제실습
+W3School Sql(https://www.w3schools.com/sql/sql_intro.asp)
 ## SQL 홈
 SQL은 데이터베이스를 위한 표준언어이다.
 ## SQL 소개
