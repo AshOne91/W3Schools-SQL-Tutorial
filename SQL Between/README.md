@@ -27,3 +27,17 @@ SELECT * FROM Products WHERE ProductName BETWEEN 'Carnarvon Tigers' AND 'Mozzare
 ```
 
 ## NOT BETWEEN Text Values
+다음 SQL문은 모든 상품을 선택한다 프러덕트이름이 위 예제의 밖의 범위에
+```sql
+SELECT * FROM Products WHERE ProductName NOT BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni' ORDER BY ProductName;
+```
+
+## BETWEEN Dates
+다음 SQL문은 모든 주문을 선택한다 OrderDate 사이에 '01-July-1996' and '31-July-1996':
+```sql
+SELECT * FROM Orders WHERE OrderDate BETWEEN #07/01/1996# AND #07/31/1996#;
+```
+또는
+```sql
+SELECT * FROM Orders WHERE OrderDate BETWEEN '1996-07-01` AND `1996-07-31`;
+```
